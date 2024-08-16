@@ -1,3 +1,9 @@
+
+```bash
+bin/zookeeper-server-start.sh config/zookeeper.properties
+bin/kafka-server-start.sh config/server.propertie
+```
+
 ## Welcome to use ServiceComb Java Chassis
 This project(module) is generate by *org.apache.servicecomb.archetypes:business-service-spring-boot-starter-archetype*, it use **spring-boot-starter-provider** to develop service producer.  
 
