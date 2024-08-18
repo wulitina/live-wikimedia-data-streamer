@@ -17,7 +17,7 @@ public class KafkaDatabaseConsumer {
     }
 
     @KafkaListener(topics = "${spring.kafka.topic.name}",
-            groupId = "${spring.kafka.consumer.group-id}"
+            groupId = "${spring.kafka.consumer.group-id }"
     )
     public void consume(String eventMessage){
         LOGGER.info(String.format("Event Message received -> %s",eventMessage));
